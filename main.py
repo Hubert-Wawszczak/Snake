@@ -1,5 +1,8 @@
-import snake.py
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+from modules.snake import *
+import sys
 
-def main():
-    snake = snake()
-    snake.update_window()
+
+snake1 = Snake()
+snake1.update_window()
