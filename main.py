@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-from modules.snake import *
+from modules.windowQT import*
 import sys
 
+end = False
 
-snake1 = Snake()
-snake1.update_window()
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    window = Popup()
+    window.interface_Start_Game()
+    sys.exit(app.exec_())

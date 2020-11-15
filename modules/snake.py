@@ -3,8 +3,6 @@
 
 import pygame
 from pygame.locals import *
-from modules.windowQT import *
-
 pygame.init()
 
 
@@ -37,10 +35,15 @@ class Snake(object):
         self.display_game = pygame.display.set_mode((self.hight,self.width))
         pygame.display.set_caption('Snake Game')
 
-    def gameOver():
+    def gameOver(self):
         game_over = True
-        pygame.quit()
-        exit()
+        if __name__ == "modules.snake":
+            app = QApplication(sys.argv)
+            window = Popup()
+            window.interface_Game_Over()
+            sys.exit(app.exec_())
+            pygame.quit()
+            exit()
 
 
     def update_window(self):
@@ -67,11 +70,7 @@ class Snake(object):
                         self.y_change = 0
 
             if self.y >= self.width or self.x <= 0 or self.x >= self.hight or self.y <= 0:
-                if __name__ == "modules.snake":
-                    app = QApplication(sys.argv)
-                    window = Popup()
-                    window.interface_Game_Over()
-                    sys.exit(app.exec_())
+                self.gameOver()
 
             self.x += self.x_change
             self.y += self.y_change
