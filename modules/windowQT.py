@@ -18,9 +18,6 @@ class Popup(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
 
-
-
-
     def interface_Game_Over(self):
 
         self.setWindowTitle("Snake Menu")
