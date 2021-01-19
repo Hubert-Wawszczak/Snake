@@ -41,9 +41,11 @@ Możliwe powinno być wyjście z gry poprzez wciśnięcie przycisku X w górnym 
 **3.0 Stos Technologiczny**  
   
 **3.1 IDE**  
+
 Atom / Vscode  
   
 **3.2 Systemy Kontroli Wersji**  
+
 Git  
   
 **3.3 Menedżery Pakietów**  
