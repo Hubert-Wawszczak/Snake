@@ -7,7 +7,7 @@ from PyQt5.QtWidgets import QLabel, QGridLayout
 from PyQt5.QtWidgets import QLineEdit, QPushButton, QHBoxLayout
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtCore import Qt
-from modules.snake import *
+
 
 
 
@@ -15,8 +15,9 @@ import sys
 
 
 class Popup(QWidget):
-    def __init__(self, parent=None):
+    def __init__(self,snake, parent=None):
         super().__init__(parent)
+        self.a = snake
 
     def interface_Game_Over(self):
 
@@ -69,11 +70,10 @@ class Popup(QWidget):
         exit_Button.clicked.connect(self.my_Exit)
 
         self.show()
-
     def runer(self):
-        self.a = Snake()
         self.my_Exit()
         self.a.update_window()
+
 
     def my_Exit(self):
         self.close()

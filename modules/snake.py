@@ -6,6 +6,7 @@ from pygame.locals import *
 import random
 import time
 pygame.init()
+import sys
 
 
 class Snake(object):
@@ -51,8 +52,9 @@ class Snake(object):
 
     def gameOver(self):
         game_over = True
-        pygame.quit()
-        quit()
+        sys.exit()
+
+
 
     def update_window(self):
         while not self.game_over:

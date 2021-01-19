@@ -2,11 +2,17 @@
 # -*- coding: utf-8 -*-
 from modules.windowQT import*
 import sys
+from modules.snake import *
+end = True
 
-end = False
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = Popup()
+    a = Snake()
+    window = Popup(a)
+    window.my_Exit()
     window.interface_Start_Game()
-    sys.exit(app.exec_())
+    window.my_Exit()
+    while end == True:
+        window.interface_Game_Over()
+        sys.exit(app.exec_())
