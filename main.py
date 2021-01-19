@@ -10,7 +10,6 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     a = Snake()
     window = Popup(a)
-    window.my_Exit()
     window.interface_Start_Game()
     window.my_Exit()
     while end == True:
