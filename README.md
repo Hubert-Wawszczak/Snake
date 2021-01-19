@@ -14,7 +14,7 @@
 
 Aplikacja ma być kopia dobrze znanej gry snake z graficznym menu. Gra powinna działać na systemie windows 10 i linux.
 
-**1. Oczekiwane funkcjonalności**
+**2.0 Oczekiwane funkcjonalności**
 
 **2.1 Menu Start**
 
@@ -36,4 +36,26 @@ Przyciski **WASD** odpowiadają kolejno za ruch w górę, lewo, dół i w prawo.
 
 Graficzne menu pojawiające się po zakończeniu rozgrywki, menu zawiera napis &quot;Game Over&quot; opcje &quot;Retry&quot; i wyjście z gry (zakończenie działania gry).
 
-Możliwe powinno być wyjście z gry poprzez wciśnięcie przycisku X w górnym rogu.
+Możliwe powinno być wyjście z gry poprzez wciśnięcie przycisku X w górnym rogu.  
+  
+**3.0 Stos Technologiczny**  
+  
+**IDE**  
+Atom / Vscode  
+  
+**Systemy Kontroli Wersji**  
+Git  
+  
+**Menedżery Pakietów**  
+  
+ PIP  
+ PACMAN  
+   
+**Język Programownania**  
+  
+Python 3.7  
+   
+**Biblioteki**  
+  
+Pygame 2.0.0  
+PyQt5 5.15.2
