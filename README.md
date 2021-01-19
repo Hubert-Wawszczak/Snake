@@ -1,5 +1,7 @@
 # README #
 
+## **Polish Version**
+
 # **Snake**
 
 ## **Specyfikacja Wymagań**
