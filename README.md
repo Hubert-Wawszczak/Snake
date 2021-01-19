@@ -12,7 +12,7 @@
 
 Aplikacja ma być kopia dobrze znanej gry snake z graficznym menu. Gra powinna działać na systemie windows 10 i linux.
 
-1. **Oczekiwane funkcjonalności**
+**1. Oczekiwane funkcjonalności**
 
 **2.1 Menu Start**
 
