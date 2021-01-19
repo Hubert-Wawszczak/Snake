@@ -40,22 +40,22 @@ Możliwe powinno być wyjście z gry poprzez wciśnięcie przycisku X w górnym 
   
 **3.0 Stos Technologiczny**  
   
-**IDE**  
+**3.1 IDE**  
 Atom / Vscode  
   
-**Systemy Kontroli Wersji**  
+**3.2 Systemy Kontroli Wersji**  
 Git  
   
-**Menedżery Pakietów**  
+**3.3 Menedżery Pakietów**  
   
  PIP  
  PACMAN  
    
-**Język Programownania**  
+**3.4 Język Programownania**  
   
 Python 3.7  
    
-**Biblioteki**  
+**3.5 Biblioteki**  
   
 Pygame 2.0.0  
 PyQt5 5.15.2
